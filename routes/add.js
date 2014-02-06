@@ -10,5 +10,5 @@ exports.addFriend = function(req, res) { 
 	}
 
 	data['friends'].push(newFriend);
-	res.render('add');
+	res.render('add', data);
  }
